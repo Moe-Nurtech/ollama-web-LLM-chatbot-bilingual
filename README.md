@@ -64,7 +64,7 @@ $env:OLLAMA_ORIGINS="*"
 ollama serve
 ```
 
-3. Build & Deploy Models
+### 3. Build & Deploy Models
 Choose either v1 or v2 depending on your performance and language requirements.
 
 Setting up Version 1 (Llama 3.2 3B)
@@ -90,7 +90,7 @@ ollama pull qwen2.5:7b
 cd v2
 ollama create apexaora-v2 -f Modelfile
 ```
-4. Run the Chatbot
+### 4. Run the Chatbot
 Open v1/index.html or v2/index.html in any web browser (Chrome, Edge, Firefox).
 
 Ensure Ollama is running in the background.
