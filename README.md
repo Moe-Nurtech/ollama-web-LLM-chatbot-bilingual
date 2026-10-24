@@ -1,4 +1,4 @@
-# Apexaora AI — Local & Offline Website Chatbot Widget
+# Apexaora AI — Local & Offline Website LLM Chatbot Widget
 
 An enterprise-grade, lightweight, and fully offline AI chatbot widget integrated into a static website. Powered by **Ollama**, this solution runs entirely locally on client hardware, eliminating cloud API fees, preserving strict data privacy, and delivering instantaneous response times.
 
