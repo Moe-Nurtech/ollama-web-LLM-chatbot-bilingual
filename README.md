@@ -70,19 +70,26 @@ Choose either v1 or v2 depending on your performance and language requirements.
 Setting up Version 1 (Llama 3.2 3B)
 
 # Pull base model
+```powershell
 ollama pull llama3.2:3b
-
+```
 # Navigate to v1 folder and create custom model
+```powershell
 cd v1
-ollama create apexaora-v1 -f Modelfile
-Setting up Version 2 (Qwen 2.5 7B - Recommended)
+ollama create apexaora -f Modelfile
+```
+# Setting up Version 2 (Qwen 2.5 7B - Recommended)
+
 
 # Pull base model
+```powershell
 ollama pull qwen2.5:7b
-
+```
 # Navigate to v2 folder and create custom model
+```powershell
 cd v2
 ollama create apexaora-v2 -f Modelfile
+```
 4. Run the Chatbot
 Open v1/index.html or v2/index.html in any web browser (Chrome, Edge, Firefox).
 
