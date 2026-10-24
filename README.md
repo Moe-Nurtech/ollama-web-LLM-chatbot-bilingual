@@ -15,13 +15,16 @@ Watch the full setup, deployment, and live demonstration on YouTube:
 
 ## 📁 Repository Structure
 
+```text
+.
 ├── example.png          # Screenshot demo of the static site & chatbot widget
 ├── v1/                  # Version 1 (Lightweight / English Focus)
 │   ├── index.html       # Static frontend UI (Tailwind CSS)
 │   └── Modelfile        # Configured for Llama 3.2 (3B)
 └── v2/                  # Version 2 (Production Multilingual / English & Arabic)
-├── index.html       # Static frontend UI (Tailwind CSS)
-└── Modelfile        # Configured for Qwen 2.5 (7B)
+    ├── index.html       # Static frontend UI (Tailwind CSS)
+    └── Modelfile        # Configured for Qwen 2.5 (7B)
+```
 
 
 ### Version Breakdown
@@ -50,8 +53,8 @@ To allow standard browser applications (`index.html`) to make API requests direc
 3. Under **User variables**, click **New...**:
    * **Variable name:** `OLLAMA_ORIGINS`
    * **Variable value:** `*`
-4. Click **OK** $\rightarrow$ **OK**.
-5. Restart Ollama from the Windows System Tray (Right-click Ollama icon $\rightarrow$ **Quit**, then relaunch from Start Menu).
+4. Click **OK** → **OK**.
+5. Restart Ollama from the Windows System Tray (Right-click Ollama icon → **Quit**, then relaunch from Start Menu).
 
 #### Method B: PowerShell Terminal Session
 Alternatively, run Ollama with CORS enabled for the current session:
@@ -59,11 +62,13 @@ Alternatively, run Ollama with CORS enabled for the current session:
 ```powershell
 $env:OLLAMA_ORIGINS="*"
 ollama serve
+```
+
 3. Build & Deploy Models
 Choose either v1 or v2 depending on your performance and language requirements.
 
 Setting up Version 1 (Llama 3.2 3B)
-PowerShell
+
 # Pull base model
 ollama pull llama3.2:3b
 
@@ -71,7 +76,7 @@ ollama pull llama3.2:3b
 cd v1
 ollama create apexaora-v1 -f Modelfile
 Setting up Version 2 (Qwen 2.5 7B - Recommended)
-PowerShell
+
 # Pull base model
 ollama pull qwen2.5:7b
 
