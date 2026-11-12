@@ -4,12 +4,6 @@ An enterprise-grade, lightweight, and fully offline AI chatbot widget integrated
 
 ![Apexaora AI Chatbot Demo](example.png)
 
----
-
-## 📽️ Video Demonstration
-
-Watch the full setup, deployment, and live demonstration on YouTube:  
-👉 **[Watch Live Video Demo](https://www.youtube.com/watch?v=YOUR_VIDEO_ID_HERE)** *(Replace with your video link)*
 
 ---
 
@@ -96,18 +90,6 @@ Open v1/index.html or v2/index.html in any web browser (Chrome, Edge, Firefox).
 Ensure Ollama is running in the background.
 
 Start chatting! All requests are routed locally to http://127.0.0.1:11434.
-
-💼 Business & Lead Generation Policy
-Both model configurations are engineered with a dedicated lead-generation instruction set. When users ask technical or service questions (e.g., fine-tuning, RAG engines, automation), the model:
-
-Provides a high-level summary of capabilities.
-
-Directs inquiries to info@apexaorainnovations.com for a formal AI Feasibility Consultation.
-
-Specifies official office location details (Office 605, Al Wahda Building, Deira, Dubai, UAE).
-
-📄 License
-Distributed under the MIT License. See LICENSE for more information.
 
 
 ---
